@@ -1,0 +1,31 @@
+:root {
+  --primary--color: #2e80ce;
+  --background--color: #10375c;
+  --white--color: #fff;
+  --text-color: #575f66;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--text-color);
+  font-family: "Sora", sans-serif;
+}
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
