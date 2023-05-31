@@ -36,6 +36,10 @@ a {
   max-width: calc(100% - 270px);
   margin: 0 auto;
 }
+.btn--primary {
+  background-color: var(--primary--color) !important;
+  color: var(--white--color) !important;
+}
 .btn {
   --height: 56px;
   display: inline-flex;
